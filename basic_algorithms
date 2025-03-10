@@ -1,0 +1,41 @@
+int a=10;
+int b=20;
+int sum=a+b;
+print (sum);
+
+
+is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+number = int(input("Enter a number: "))
+if is_prime(number):
+    print(f"{number} is a prime number")
+else:
+    print(f"{number} is not a primenumber")
+
+
+
+max(a, b, c):
+    return max(a, b, c)
+
+num_1 = float(input("Enter the first number: "))
+nu_2 = float(input("Enter the second number: "))
+num_3 = float(input("Enter the third number: "))
+
+large_num = find_max(num_1, num_2, num_3)
+print(large_num)
+
+
+
+num = 20
+if (num % 2) == 0:
+   print('Even Number')
+else:
+   print('Odd Number')
+
+
